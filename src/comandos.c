@@ -31,7 +31,7 @@ void listdir()//Funcao para listar as pastas
 
 void newdir()//Cria pasta nova no diretorio atual
 {
-    
+    system("mkdir");
 }
 
 void netdata() //comando para identificar o endereco do IP

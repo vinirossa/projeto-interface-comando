@@ -53,6 +53,8 @@ int main()
             netdata();
         else if (strcmp(cmd, "matrix") == 0)
             matrix();
+        else if (strcmp(cmd, "newdir") == 0)
+            newdir();
         else if (strcmp(cmd, "close") == 0)
             return 0;
 

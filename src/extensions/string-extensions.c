@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void trim(char * s) {
-    char * p = s;
-    int l = strlen(p);
+// Função para remover espaços em branco do início e final da string
+void trim(char *p_str) {
+    char *p_newstr = p_str;
+    int length = strlen(p_newstr);
 
-    while(isspace(p[l - 1])) p[--l] = 0;
-    while(* p && isspace(* p)) ++p, --l;
+    // Itera sobre o início e final da string, removendo os espaços em branco
+    while(isspace(p_newstr[length - 1])) p_newstr[--length] = 0;
+    while(*p_newstr && isspace(*p_newstr)) ++p_newstr, --length;
 
-    memmove(s, p, l + 1);
+    // Atualiza a string informada com a string sanitizada
+    memmove(p_str, p_newstr, length + 1);
 }  

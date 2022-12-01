@@ -10,7 +10,7 @@ int main()
     char cmd[200];
     char dir_atual[200] = "C:\\";
 
-    system("cls");
+    system("cls");//Limpa tela
 
     // Muda cor do texto para ciano
     printf("\033[0;36m");
@@ -41,6 +41,8 @@ int main()
         cmd[strcspn(cmd, "\n")] = 0; // Remove quebra-linha final da string
         trim(cmd); // Remove espaços em branco do início e fim da string
 
+
+        //compara as strings digitadas, se forem iguais executa determinada funcao
         if (strcmp(cmd, "help") == 0)
             help();
         else if (strcmp(cmd, "clean") == 0)
@@ -54,6 +56,6 @@ int main()
         else if (strcmp(cmd, "close") == 0)
             return 0;
 
-        strcpy(cmd, "");
+        strcpy(cmd, "");//limpa barra de digitacao do cmd
     }
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void help()
+void help()// Funcao que lista os comandos disponiveis 
 {
     // Muda cor do texto para amarelo
     printf("\033[0;33m");
@@ -19,12 +19,12 @@ void help()
     printf("\033[0m"); 
 }
 
-void clean()
+void clean()//Funcao para limpar a tela
 {
     system("cls");
 }
 
-void listdir()
+void listdir()//Funcao para listar as pastas 
 {
     system("dir");
 }
@@ -34,7 +34,7 @@ void newdir()
     
 }
 
-void netdata()
+void netdata() //comando para identificar o endereco do IP
 {
     system("ipconfig");
 }

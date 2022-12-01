@@ -8,11 +8,11 @@ Para usar a interface de comando, basta executar o arquivo main.exe e digitar a 
 
 ## Integrantes
 
-Lucas Eduardo Martin Santos - RA 202210536
-Hugo Castelazi Grossi - RA 202210419 
-João Pedro Cristofoletti Natale - RA 202210381
-Felipe Brochini - RA 202210217
-Vinícius Pereira Barbosa - RA 202210254
+- Lucas Eduardo Martin Santos - RA 202210536
+- Hugo Castelazi Grossi - RA 202210419 
+- João Pedro Cristofoletti Natale - RA 202210381
+- Felipe Brochini - RA 202210217
+- Vinícius Pereira Barbosa - RA 202210254
 
 ## Link do Repositório (GitHub)
 

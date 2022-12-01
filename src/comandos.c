@@ -29,7 +29,7 @@ void listdir()//Funcao para listar as pastas
     system("dir");
 }
 
-void newdir()
+void newdir()//Cria pasta nova no diretorio atual
 {
     
 }

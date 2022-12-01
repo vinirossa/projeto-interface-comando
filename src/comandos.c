@@ -41,7 +41,7 @@ void netdata() //comando para identificar o endereco do IP
 
 void matrix()
 {
-    system("start ..\\assets\\matrix.bat");
+    system("start ..\\assets\\matrix.bat");// abre tela matrix
 }
 
 void customcmd(char *cmd)
